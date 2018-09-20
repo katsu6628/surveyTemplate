@@ -1,0 +1,77 @@
+\documentclass[a4j,landscape,twocolumn]{jsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{ascmac}
+\usepackage{bm}
+\usepackage[dvipdfmx]{color}
+\usepackage{subcaption}
+\usepackage{txfonts}				%\mathfrak{R}実部のR等
+\usepackage[top=10truemm,bottom=10truemm,left=15truemm,right=15truemm]{geometry}
+\usepackage{fancyhdr}
+\parindent = 0pt
+\newcommand{\parttitle}[1]{\begin{screen}\centering{\large{\bf{#1}}}\end{screen}}
+\begin{document}
+\newpage
+\thispagestyle{fancy}
+\lhead[]{
+%% Article name and published Year
+
+}
+\rhead[]{
+%% The date you read this article
+
+}
+\twocolumn[\bf{\huge
+%% The title of the Article
+
+}\\
+%% Name of Authors
+
+]
+\vspace*{1mm}
+\parttitle{論文の概要、どんな内容？}
+%% Summary of Article
+
+\parttitle{問題設定と解決した点、先行研究と比べてどこがすごい？}
+%% Theme and Difference from previous works
+
+\parttitle{技術や手法のキモはどこ？}
+%% Main part of technology
+
+\parttitle{どうやって有効だと検証した？}
+%% Evidence of work
+
+\newpage
+\vspace*{1mm}
+\parttitle{議論すべき点}
+%% Discussions
+
+\parttitle{次に読むべき論文は？}
+\begin{enumerate}
+%% What next
+\item
+
+\end{enumerate}
+\parttitle{Appendix}
+%% Figures
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\columnwidth}
+\centering
+\includegraphics[width=\columnwidth]{}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\columnwidth}
+\centering
+\includegraphics[width=\columnwidth]{}
+\caption{}
+\end{subfigure}
+\caption{}
+\label{}
+\end{figure}
+
+\end{document}
