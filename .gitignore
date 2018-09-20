@@ -1,7 +1,4 @@
 "ignore everything except .tex files
-*.*
-!*.tex
-!template.pptx
-!.gitignore
-!README.md
-!*.pdf
+落合メソッド論文.pdf
+sample.pptx
+201808survey.pptx
