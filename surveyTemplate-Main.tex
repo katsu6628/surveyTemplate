@@ -1,5 +1,5 @@
 \documentclass[a4j,landscape,twocolumn]{jsarticle}
-\usepackage{../docstyle/docmute}
+\usepackage{docmute}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb}
 \usepackage[dvipdfmx]{graphicx}
@@ -14,6 +14,9 @@
 \usepackage[top=10truemm,bottom=10truemm,left=15truemm,right=15truemm]{geometry}
 \usepackage{fancyhdr}
 \newcommand{\parttitle}[1]{\begin{screen}\centering{\large{\bf{#1}}}\end{screen}}
+\newcommand{\Article}[1]{\lhead[]{#1}}
+\newcommand{\DateRead}[1]{\rhead[]{#1}}
+\newcommand{\TitleAuthor}[2]{\twocolumn[\bf{\huge #1}\\ #2]\vspace*{1mm}}
 \parindent = 0pt
  
 \begin{document}

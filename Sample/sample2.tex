@@ -1,0 +1,78 @@
+\documentclass[a4j,landscape,twocolumn]{jsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{ascmac}
+\usepackage{bm}
+\usepackage[dvipdfmx]{color}
+\usepackage{subcaption}
+\usepackage{txfonts}				%\mathfrak{R}実部のR等
+\usepackage[top=10truemm,bottom=10truemm,left=15truemm,right=15truemm]{geometry}
+\usepackage{fancyhdr}
+\parindent = 0pt
+\newcommand{\parttitle}[1]{\begin{screen}\centering{\large{\bf{#1}}}\end{screen}}
+\newcommand{\Article}[1]{\lhead[]{#1}}
+\newcommand{\DateRead}[1]{\rhead[]{#1}}
+\newcommand{\TitleAuthor}[2]{\twocolumn[\bf{\huge #1}\\ #2]\vspace*{1mm}}
+\begin{document}
+\newpage
+\thispagestyle{fancy}
+%% Article name and published Year
+\Article{
+Article2
+}
+%% The date you read this article
+\DateRead{
+2018????
+}
+%% The title of the Article
+%% Name of Authors
+\TitleAuthor{
+Paper 2
+}{
+Authors 2
+}
+\parttitle{論文の概要、どんな内容？}\\
+%% Summary of Article
+Abstract of this paper
+\parttitle{問題設定と解決した点、先行研究と比べてどこがすごい？}\\
+%% Theme and Difference from previous works
+what is so new about this
+\parttitle{技術や手法のキモはどこ？}\\
+%% Main part of technology
+what is so cool about this
+\parttitle{どうやって有効だと検証した？}\\
+%% Evidence of work
+show me your evidence
+\newpage\vspace*{1mm}	%use this to go to the next column to tidy 
+\parttitle{議論すべき点}\\
+%% Discussions
+any problems? or other hypothesis?
+\parttitle{次に読むべき論文は？}
+\begin{enumerate}
+%% What next
+\item
+what next
+\end{enumerate}
+\parttitle{Appendix}
+%% Figures
+\begin{figure}[H]
+\centering
+\begin{subfigure}{0.48\columnwidth}
+\centering
+\includegraphics[width=\columnwidth]{Figures/sample2_fig1.png}
+\caption{}
+\end{subfigure}
+\begin{subfigure}{0.48\columnwidth}
+\centering
+\includegraphics[width=\columnwidth]{Figures/sample2_fig2.jpg}
+\caption{}
+\end{subfigure}
+\caption{}
+\label{}
+\end{figure}
+
+\end{document}

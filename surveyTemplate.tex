@@ -14,40 +14,41 @@
 \usepackage{fancyhdr}
 \parindent = 0pt
 \newcommand{\parttitle}[1]{\begin{screen}\centering{\large{\bf{#1}}}\end{screen}}
+\newcommand{\Article}[1]{\lhead[]{#1}}
+\newcommand{\DateRead}[1]{\rhead[]{#1}}
+\newcommand{\TitleAuthor}[2]{\twocolumn[\bf{\huge #1}\\ #2]\vspace*{1mm}}
 \begin{document}
 \newpage
 \thispagestyle{fancy}
-\lhead[]{
+\Article{
 %% Article name and published Year
 
 }
-\rhead[]{
+\DateRead{
 %% The date you read this article
 
 }
-\twocolumn[\bf{\huge
+\TitleAuthor{
 %% The title of the Article
 
-}\\
+}{
 %% Name of Authors
 
-]
-\vspace*{1mm}
-\parttitle{論文の概要、どんな内容？}
+}
+\parttitle{論文の概要、どんな内容？}\\
 %% Summary of Article
 
-\parttitle{問題設定と解決した点、先行研究と比べてどこがすごい？}
+\parttitle{問題設定と解決した点、先行研究と比べてどこがすごい？}\\
 %% Theme and Difference from previous works
 
-\parttitle{技術や手法のキモはどこ？}
+\parttitle{技術や手法のキモはどこ？}\\
 %% Main part of technology
 
-\parttitle{どうやって有効だと検証した？}
+\parttitle{どうやって有効だと検証した？}\\
 %% Evidence of work
 
-\newpage
-\vspace*{1mm}
-\parttitle{議論すべき点}
+\newpage\vspace*{1mm}	%use this to go to the next column to tidy 
+\parttitle{議論すべき点}\\
 %% Discussions
 
 \parttitle{次に読むべき論文は？}
