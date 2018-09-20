@@ -6,7 +6,7 @@
 2. docmute.sty
 
 surveyTemplate-Main.tex: Connect all PDF's in one  
-surveyTemplate;.tex: minimum set of template
+surveyTemplate.tex: minimum set of template
 
 ## PowerPoint
 template.pptx : copy and paste template page or use the .potx
