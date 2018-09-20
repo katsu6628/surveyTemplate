@@ -1,4 +1,8 @@
 "ignore everything except .tex files
-落合メソッド論文.pdf
+*.*
+old/
 sample.pptx
-201808survey.pptx
+!*.tex
+!*.pdf
+!*.png
+!*.jpg
